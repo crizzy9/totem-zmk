@@ -5,9 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      # Pinned to v0.2.1 for compatibility with seeeduino_xiao_ble board name
-      # v0.3.0+ renamed boards to use //zmk suffix
-      revision: v0.2.1
+      revision: v0.3.0
       import: app/west.yml
   self:
     path: config
