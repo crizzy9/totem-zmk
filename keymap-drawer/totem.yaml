@@ -21,7 +21,7 @@ layers:
   - {t: K, s: '$$mdi:apple-keyboard-control$$'}
   - {t: L, s: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:alpha-w-box$$
   - Z
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: GAMING}
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
   - {t: '$$mdi:backspace$$', h: NUMBER}
@@ -133,7 +133,7 @@ layers:
   - _
   - $
   - '*'
-  - .
+  - '!'
   - {t: '`', s: '~'}
   - '&'
   - +
@@ -144,7 +144,7 @@ layers:
   - {t: '-', s: _}
   - '>'
   - {t: /, s: '?'}
-  - {t: ',', s: <}
+  - '#'
   - (
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
