@@ -60,7 +60,7 @@ layers:
   - {t: E, s: '$$mdi:apple-keyboard-control$$'}
   - {t: I, s: '$$mdi:apple-keyboard-option$$'}
   - {t: O, s: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:alpha-w-box$$
   - Z
   - X
   - C
@@ -71,7 +71,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: GAMING}
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
   - {t: '$$mdi:backspace$$', h: NUMBER}
@@ -99,7 +99,7 @@ layers:
   - {t: T, s: '$$mdi:apple-keyboard-control$$'}
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - {t: N, s: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:alpha-w-box$$
   - G
   - X
   - J
@@ -110,7 +110,7 @@ layers:
   - M
   - F
   - P
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: GAMING}
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
   - {t: '$$mdi:backspace$$', h: NUMBER}
