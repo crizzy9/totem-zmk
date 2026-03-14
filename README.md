@@ -49,9 +49,9 @@ To manually trigger a build:
 1. **Connect the left half** of the TOTEM to your PC using USB
 2. **Enter bootloader mode** by double-clicking the reset button on the XIAO BLE
 3. The keyboard should appear as a mass storage device (like a USB drive)
-4. **Drag and drop** the `totem_left-xiao_ble-zmk.uf2` file onto the drive
+4. **Drag and drop** the `totem_left-seeeduino_xiao_ble-zmk.uf2` file onto the drive
 5. The keyboard will automatically reboot once flashing is complete
-6. **Repeat for the right half** using `totem_right-xiao_ble-zmk.uf2`
+6. **Repeat for the right half** using `totem_right-seeeduino_xiao_ble-zmk.uf2`
 
 ### Using Keymap Editor
 
@@ -108,9 +108,9 @@ The home row keys double as modifiers when held:
 
 ## ZMK Version
 
-This configuration uses ZMK **v0.3.0** with the new board naming convention (`xiao_ble//zmk`). 
+This configuration uses Pete Johanson's ZMK fork (`feat/pointers-with-input-processors` branch) which is compatible with the GitHub Actions build system.
 
-To update to a newer version, edit `config/west.yml` and change the `revision` value. See [ZMK releases](https://github.com/zmkfirmware/zmk/releases) for available versions.
+To switch to main ZMK, edit `config/west.yml` and change the remote and revision. See [ZMK releases](https://github.com/zmkfirmware/zmk/releases) for available versions.
 
 ## Resources
 
