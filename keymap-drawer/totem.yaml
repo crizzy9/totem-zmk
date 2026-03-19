@@ -180,9 +180,9 @@ layers:
   - $$mdi:printer-outline$$
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   - '*'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -218,9 +218,9 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:bluetooth-off$$', h: ALL}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:lock$$
   - $$mdi:page-first$$
