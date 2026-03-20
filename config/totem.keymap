@@ -148,9 +148,9 @@
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
             bindings = <
-&kp B                &kp Y             &kp O                   &kp U               &kp APOS            &kp SEMI          &kp L               &kp D               &kp W              &kp V
+&kp B                &kp Y             &kp O                   &kp U               &kp APOS            &kp Z             &kp L               &kp D               &kp W              &kp V
 &hrm_left LGUI C     &hrm_left LALT I  &hrm_left LCTRL E       &hrm_left LSHFT A   &kp COMMA           &kp DOT           &hrm_right RSHFT H  &hrm_right RCTRL T  &hrm_right RALT S  &hrm_right RGUI N
-&caps_word           &kp G             &kp X                   &kp J               &kp K               &kp MINUS         &kp FSLH            &kp R               &kp M              &kp F              &kp P  &kp RIGHT_SHIFT
+&caps_word           &kp G             &kp X                   &kp J               &kp K               &kp MINUS         &kp FSLH            &kp R               &kp M              &kp F              &kp P  &kp Q
 &layer_tap 6 DELETE  &layer_tap 5 ESC  &layer_tap 4 BACKSPACE  &layer_tap 3 SPACE  &layer_tap 5 ENTER  &layer_tap 7 TAB
             >;
         };
