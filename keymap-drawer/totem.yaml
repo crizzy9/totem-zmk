@@ -84,7 +84,7 @@ layers:
   - O
   - U
   - APOS
-  - {t: ;, s: ':'}
+  - Z
   - L
   - D
   - W
@@ -110,7 +110,7 @@ layers:
   - M
   - F
   - P
-  - $$mdi:apple-keyboard-shift$$
+  - Q
   - {t: '$$mdi:backspace-reverse-outline$$', h: GAMING}
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
   - {t: '$$mdi:backspace$$', h: NUMBER}
