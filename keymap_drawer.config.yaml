@@ -101,102 +101,86 @@ parse_config:
     type: trans
 
   raw_binding_map:
-    # Layer taps
-    "&layer_tap 6 DELETE":
-      tap: $$mdi:backspace-reverse-outline$$
-      hold: 'GAMING'
-    "&layer_tap 5 ESC":
-      tap: $$mdi:keyboard-esc$$
-      hold: 'SYSTEM'
-    "&layer_tap 4 BACKSPACE":
-      tap: $$mdi:backspace$$
-      hold: 'NUMBER'
-    "&layer_tap 3 SPACE":
-      tap: $$mdi:keyboard-space$$
-      hold: 'SYMBOL'
-    "&layer_tap 5 ENTER":
-      tap: $$mdi:keyboard-return$$
-      hold: 'SYSTEM'
-    "&layer_tap 7 TAB":
-      tap: $$mdi:keyboard-tab$$
-      hold: 'LOWER'
+    # Layer taps: let the parser auto-detect &layer_tap as a layer activator
+    # so mark_alternate_layer_activators highlights the thumb keys on their
+    # destination layer's view. Do not override here.
 
-    # Home row mods - left (QWERTY)
+    # Home row mods - left (QWERTY): hold-position modifier icon (bottom)
     "&hrm_left LGUI A":
       tap: 'A'
-      shifted: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:apple-keyboard-command$$
     "&hrm_left LALT S":
       tap: 'S'
-      shifted: $$mdi:apple-keyboard-option$$
+      hold: $$mdi:apple-keyboard-option$$
     "&hrm_left LCTRL D":
       tap: 'D'
-      shifted: $$mdi:apple-keyboard-control$$
+      hold: $$mdi:apple-keyboard-control$$
     "&hrm_left LSHFT F":
       tap: 'F'
-      shifted: $$mdi:apple-keyboard-shift$$
+      hold: $$mdi:apple-keyboard-shift$$
     # Colemak left
     "&hrm_left LALT R":
       tap: 'R'
-      shifted: $$mdi:apple-keyboard-option$$
+      hold: $$mdi:apple-keyboard-option$$
     "&hrm_left LCTRL S":
       tap: 'S'
-      shifted: $$mdi:apple-keyboard-control$$
+      hold: $$mdi:apple-keyboard-control$$
     "&hrm_left LSHFT T":
       tap: 'T'
-      shifted: $$mdi:apple-keyboard-shift$$
+      hold: $$mdi:apple-keyboard-shift$$
     # Engram left
     "&hrm_left LGUI C":
       tap: 'C'
-      shifted: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:apple-keyboard-command$$
     "&hrm_left LALT I":
       tap: 'I'
-      shifted: $$mdi:apple-keyboard-option$$
+      hold: $$mdi:apple-keyboard-option$$
     "&hrm_left LCTRL E":
       tap: 'E'
-      shifted: $$mdi:apple-keyboard-control$$
+      hold: $$mdi:apple-keyboard-control$$
     "&hrm_left LSHFT A":
       tap: 'A'
-      shifted: $$mdi:apple-keyboard-shift$$
+      hold: $$mdi:apple-keyboard-shift$$
 
-    # Home row mods - right (QWERTY)
+    # Home row mods - right (QWERTY): hold-position modifier icon (bottom)
     "&hrm_right RSHFT J":
       tap: 'J'
-      shifted: $$mdi:apple-keyboard-shift$$
+      hold: $$mdi:apple-keyboard-shift$$
     "&hrm_right RCTRL K":
       tap: 'K'
-      shifted: $$mdi:apple-keyboard-control$$
+      hold: $$mdi:apple-keyboard-control$$
     "&hrm_right RALT L":
       tap: 'L'
-      shifted: $$mdi:apple-keyboard-option$$
+      hold: $$mdi:apple-keyboard-option$$
     "&hrm_right RGUI SEMI":
       tap: ';'
-      shifted: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:apple-keyboard-command$$
     # Colemak/Engram right
     "&hrm_right RSHFT N":
       tap: 'N'
-      shifted: $$mdi:apple-keyboard-shift$$
+      hold: $$mdi:apple-keyboard-shift$$
     "&hrm_right RCTRL E":
       tap: 'E'
-      shifted: $$mdi:apple-keyboard-control$$
+      hold: $$mdi:apple-keyboard-control$$
     "&hrm_right RALT I":
       tap: 'I'
-      shifted: $$mdi:apple-keyboard-option$$
+      hold: $$mdi:apple-keyboard-option$$
     "&hrm_right RGUI O":
       tap: 'O'
-      shifted: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:apple-keyboard-command$$
     # Engram right
     "&hrm_right RSHFT H":
       tap: 'H'
-      shifted: $$mdi:apple-keyboard-shift$$
+      hold: $$mdi:apple-keyboard-shift$$
     "&hrm_right RCTRL T":
       tap: 'T'
-      shifted: $$mdi:apple-keyboard-control$$
+      hold: $$mdi:apple-keyboard-control$$
     "&hrm_right RALT S":
       tap: 'S'
-      shifted: $$mdi:apple-keyboard-option$$
+      hold: $$mdi:apple-keyboard-option$$
     "&hrm_right RGUI N":
       tap: 'N'
-      shifted: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:apple-keyboard-command$$
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
