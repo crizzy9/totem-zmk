@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, s: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, s: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:alpha-w-box$$
   - Z
   - X
@@ -50,16 +50,16 @@ layers:
   - U
   - Y
   - APOS
-  - {t: A, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, s: '$$mdi:apple-keyboard-control$$'}
-  - {t: T, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - M
-  - {t: N, s: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, s: '$$mdi:apple-keyboard-control$$'}
-  - {t: I, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: O, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:alpha-w-box$$
   - Z
   - X
@@ -89,16 +89,16 @@ layers:
   - D
   - W
   - V
-  - {t: C, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: I, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, s: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: H, s: '$$mdi:apple-keyboard-shift$$'}
-  - {t: T, s: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: N, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:alpha-w-box$$
   - G
   - X
@@ -153,7 +153,7 @@ layers:
   - '%'
   - ':'
   - {t: ;, s: ':'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
@@ -191,7 +191,7 @@ layers:
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '0', s: )}
   - {t: ',', s: <}
   - {t: ., s: '>'}
@@ -229,10 +229,10 @@ layers:
   - $$mdi:page-last$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   GAMING:
   - $$mdi:keyboard-tab$$
@@ -267,7 +267,7 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:fast-forward$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -311,7 +311,7 @@ layers:
   - {t: NUMBER, h: toggle}
   - {t: SYMBOL, h: toggle}
   - {t: SYSTEM, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
